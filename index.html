@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faf3e9">
+  <meta name="description" content="FunctioNola: function meets flavor. Explore Maple Pecan and Peanut Butter Chocolate granola bars and pouches in our interactive student storefront demo.">
+  <meta property="og:title" content="FunctioNola | Function Meets Flavor">
+  <meta property="og:description" content="The little snack with a lot going on. Explore two delicious flavors in our interactive student storefront demo.">
+  <meta property="og:image" content="assets/brand-board.webp">
+  <title>FunctioNola | Function Meets Flavor</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<div class="announcement"><span class="mini-star" aria-hidden="true">✳</span> Function meets flavor <span class="announcement-dot">•</span> Welcome to our concept shop <span class="mini-star" aria-hidden="true">✳</span></div>
+<header class="header">
+  <div class="container nav-inner">
+    <a class="wordmark" href="#top" aria-label="FunctioNola home">Functio<span>Nola</span><i aria-hidden="true"></i></a>
+    <nav class="navigation" id="site-nav" aria-label="Main navigation">
+      <a href="#shop">Shop the crunch</a>
+      <a href="#why">Why FunctioNola?</a>
+      <a href="#story">Our story</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <button type="button" class="cart-trigger" id="cart-open" aria-label="Open shopping bag, 0 items">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l1.1 13H3.9L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+        <span>Bag</span><span class="bag-count" id="bag-count">0</span>
+      </button>
+      <button type="button" class="mobile-menu" id="menu-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="content">
+<section class="hero" id="top">
+  <div class="container hero-layout">
+    <div class="hero-copy">
+      <p class="kicker"><span class="sparkle" aria-hidden="true">✳</span> THE GOOD STUFF, IN EVERY BITE</p>
+      <h1>Good-for-you<br>vibes. <em>Great</em><br><span class="hero-pink">big flavor.</span></h1>
+      <p class="lead">Meet the crunchy, craveable snack concept made for wherever your day takes you. Two feel-good flavors. Zero boring bites.</p>
+      <div class="hero-buttons"><a class="btn btn-dark" href="#shop">Shop the bars <span aria-hidden="true">↗</span></a><a class="plain-link" href="#story">Meet FunctioNola <span aria-hidden="true">→</span></a></div>
+      <div class="micro-proof"><span class="proof-icon" aria-hidden="true">♥</span> Big flavor, little package. <span class="proof-divider" aria-hidden="true">/</span> Made for snack breaks.</div>
+    </div>
+    <div class="hero-graphic">
+      <div class="hero-photo"><img src="assets/brand-board.webp" alt="FunctioNola packaging concept showing Maple Pecan and Peanut Butter Chocolate granola bars and pouches" width="828" height="551" fetchpriority="high"></div>
+      <div class="hero-stamp" aria-hidden="true"><span>NOT YOUR<br>AVERAGE</span><strong>SNACK</strong><span class="stamp-star">✳</span></div>
+      <div class="pink-orb" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+<div class="marquee" aria-label="Big flavor, good crunch, little moments"><div class="marquee-track" aria-hidden="true"><span>BIG FLAVOR</span><b>✳</b><span>GOOD CRUNCH</span><b>✳</b><span>LITTLE MOMENTS</span><b>✳</b><span>BIG FLAVOR</span><b>✳</b><span>GOOD CRUNCH</span><b>✳</b><span>LITTLE MOMENTS</span><b>✳</b></div></div>
+<section class="shop section" id="shop">
+ <div class="container">
+  <div class="section-top"><div><p class="kicker">FIND YOUR HAPPY CRUNCH</p><h2>Pick your <em>favorite.</em></h2></div><p>Cozy maple and pecan. Dreamy peanut butter and chocolate. Why choose just one?</p></div>
+  <div class="shop-toolbar" role="group" aria-label="Filter products"><button class="filter active" data-filter="all" aria-pressed="true">Shop all <span>04</span></button><button class="filter" data-filter="bar" aria-pressed="false">Granola bars</button><button class="filter" data-filter="pouch" aria-pressed="false">Granola pouches</button><p class="toolbar-note">Illustrative products &amp; prices</p></div>
+  <div id="product-grid" class="product-grid" aria-live="polite"></div>
+  <div class="shop-note"><span aria-hidden="true">✳</span> Need a snack break? Add a few to your bag and try our interactive demo checkout. No real orders or payments.</div>
+ </div>
+</section>
+<section class="flavor-highlight" aria-labelledby="highlight-heading"><div class="container highlight-grid"><div class="highlight-art"><img src="assets/maple-bar.webp" alt="Maple Pecan FunctioNola bar concept packaging" loading="lazy"><div class="highlight-sun" aria-hidden="true">✷</div></div><div class="highlight-content"><p class="kicker">COZY MEETS CRUNCHY</p><h2 id="highlight-heading">A little sweet.<br><em>A lot to love.</em></h2><p>Some days call for maple and pecan. Others call for peanut butter and chocolate. Whatever the mood, we believe your everyday snack should be the best part of your break.</p><a href="#shop" class="btn btn-cream">Find your flavor <span aria-hidden="true">↗</span></a></div></div></section>
+<section class="values section" id="why"><div class="container"><div class="values-intro"><p class="kicker">WHY WE'RE DIFFERENT</p><h2>Made for the <em>little moments.</em></h2><p>Life moves fast. Your snack should keep up and taste great along the way.</p></div><div class="value-cards"><article><span class="value-illustration">✳</span><h3>Flavor comes first.</h3><p>Familiar, delicious pairings designed to make snack time something to look forward to.</p></article><article><span class="value-illustration">♡</span><h3>Good on the go.</h3><p>From long study sessions to adventures in between, there's always room for a crunchy break.</p></article><article><span class="value-illustration">✿</span><h3>More than ordinary.</h3><p>A playful take on the functional snack category, with thoughtful ideas behind the concept.</p></article></div></div></section>
+<section class="story-section section" id="story"><div class="container"><div class="story-panel"><div class="story-decor"><div class="story-art-word">FUNCTIO<br><span>NOLA.</span></div><span class="squiggle" aria-hidden="true">〰</span><p>FUNCTION MEETS<br>FLAVOR.</p></div><div class="story-text"><p class="kicker">HI, WE'RE FUNCTIOnOLA</p><h2>Good ideas start <em>small.</em></h2><p>FunctioNola began as a student business concept built around one simple belief: eating on the go shouldn't mean settling for boring.</p><p>Inspired by everyday routines and familiar flavors, we're imagining a snack brand that's equal parts thoughtful and delicious.</p><a href="#shop" class="btn btn-outline">Explore the shop <span aria-hidden="true">↗</span></a></div></div></div></section>
+<section class="faq section" id="faq"><div class="container faq-layout"><div><p class="kicker">GOOD QUESTIONS</p><h2>Let's clear<br>the <em>crumbs.</em></h2><p>Everything you need to know about this concept shop.</p></div><div class="faq-items"><details><summary>Can I actually order FunctioNola?</summary><p>Not yet! This is an interactive storefront demonstration for a college business project. You can browse, add items to your bag, and complete a simulated checkout, but no products are sold or shipped.</p></details><details><summary>Are the product prices final?</summary><p>No. All prices and shipping offers on this website are illustrative examples created for the business project.</p></details><details><summary>What about ingredients and nutrition?</summary><p>The packaging artwork represents the product concept. Ingredient, allergen, nutrition, and wellness claims require confirmation and review before any real-world sale.</p></details><details><summary>Will checkout charge my card?</summary><p>Never. Our demo checkout does not ask for a card number or contact a payment processor. Checkout shows fictional, read-only details; nothing is submitted or stored.</p></details></div></div></section>
+<section class="closing"><div class="container closing-inner"><span class="big-star" aria-hidden="true">✳</span><p class="kicker">YOUR NEXT SNACK BREAK IS CALLING</p><h2>Crunch time<br>looks <em>good</em> on you.</h2><a class="btn btn-dark" href="#shop">Shop the demo <span aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer class="footer"><div class="container footer-content"><div><a class="wordmark footer-logo" href="#top">Functio<span>Nola</span><i aria-hidden="true"></i></a><p>Function meets flavor.</p></div><nav aria-label="Footer links"><a href="#shop">Shop</a><a href="#story">Our story</a><a href="#faq">FAQ</a></nav><div class="footer-bottom"><span>© <span id="year">2026</span> FunctioNola.</span><span>Made for a college business project. <strong>Demo only; no orders or payments.</strong> Product imagery, descriptions, claims, prices and shipping are illustrative.</span></div></div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="product-dialog" class="product-dialog"><button class="dialog-close" data-close="product-dialog" type="button" aria-label="Close product details">×</button><div id="product-dialog-content"></div></dialog>
+<dialog id="cart-dialog" class="cart-dialog"><div class="drawer-top"><div><p class="kicker">YOUR HAPPY LITTLE HAUL</p><h2>Your bag <span id="cart-heading-count">(0)</span></h2></div><button class="dialog-close in-flow" data-close="cart-dialog" type="button" aria-label="Close shopping bag">×</button></div><div id="cart-items" class="cart-items"></div><div id="cart-bottom" class="cart-bottom"></div></dialog>
+<dialog id="checkout-dialog" class="checkout-dialog"><div class="checkout-header"><a class="wordmark" href="#top" id="checkout-home">Functio<span>Nola</span></a><button class="dialog-close in-flow" data-close="checkout-dialog" type="button" aria-label="Close checkout">×</button></div><div class="checkout-body"><div id="checkout-main"></div><div class="checkout-summary" id="checkout-summary"></div></div></dialog>
+<div class="demo-banner" id="demo-banner"><span><strong>STUDENT DEMO</strong> · This is an interactive concept store. No actual purchases or payments.</span><button type="button" id="dismiss-demo" aria-label="Dismiss demo notice">×</button></div>
+</body>
+</html>
