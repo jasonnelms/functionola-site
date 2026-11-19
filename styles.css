@@ -115,3 +115,18 @@
   .faq-layout { grid-template-columns: minmax(0, 36fr) minmax(0, 64fr); gap: 32px; }
   .faq-items { min-width: 0; padding-right: 0; }
 }
+
+/* FunctioNola student-business roadmap and concept disclosures */
+.roadmap{background:#f4e6d8;border-block:1px solid #e7d7c7}
+.roadmap-heading{max-width:730px;margin-bottom:38px}
+.roadmap-heading .kicker{color:#a96849}
+.roadmap-heading h2{margin-bottom:18px}
+.roadmap-heading>p:last-child{color:#624d43;line-height:1.7;max-width:680px}
+.roadmap-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.roadmap-grid article{min-width:0;background:var(--paper);border:1px solid #e5cfb9;border-radius:22px;padding:30px 26px;box-shadow:0 8px 22px rgba(68,39,27,.035)}
+.roadmap-number{display:inline-flex;align-items:center;justify-content:center;width:47px;height:47px;margin-bottom:20px;border-radius:50%;background:#f7d6dd;color:#833b50;font-weight:900;letter-spacing:.025em}
+.roadmap-grid h3{font-family:Fraunces,Georgia,serif;font-size:1.45rem;letter-spacing:-.035em;line-height:1.18;margin-bottom:12px}
+.roadmap-grid p{color:#725a4e;font-size:.92rem;line-height:1.7;margin:0}
+.roadmap-footnote{max-width:980px;border-left:3px solid #cf758e;padding-left:16px;color:#6d544b;font-size:.77rem;line-height:1.6;margin:26px 0 0}
+@media(max-width:850px){.roadmap-grid{grid-template-columns:1fr;gap:12px}.roadmap-grid article{padding:23px 24px}.roadmap-number{margin-bottom:13px}.roadmap-grid h3{font-size:1.3rem}.roadmap-heading{margin-bottom:27px}}
+@media(max-width:600px){.roadmap-heading h2{font-size:clamp(2.35rem,9vw,3.2rem)}.roadmap-grid article{border-radius:17px}.roadmap-footnote{font-size:.73rem}}
